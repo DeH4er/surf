@@ -144,8 +144,8 @@ static Key keys[] = {
 	{ MODKEY,                GDK_KEY_h,      navigate,   { .i = -1 } },
 
 	/* vertical and horizontal scrolling, in viewport percentage */
-	{ MODKEY,                GDK_KEY_j,      scrollv,    { .i = +10 } },
-	{ MODKEY,                GDK_KEY_k,      scrollv,    { .i = -10 } },
+	{ MODKEY,                GDK_KEY_j,      scrollv,    { .i = +3 } },
+	{ MODKEY,                GDK_KEY_k,      scrollv,    { .i = -3 } },
 	{ MODKEY,                GDK_KEY_d,      scrollv,    { .i = +50 } },
 	{ MODKEY,                GDK_KEY_u,      scrollv,    { .i = -50 } },
 

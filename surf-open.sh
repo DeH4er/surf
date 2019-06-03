@@ -4,7 +4,7 @@
 #
 
 xidfile="$HOME/tmp/tabbed-surf.xid"
-uri=""
+uri="duckduckgo.com"
 
 if [ "$#" -gt 0 ];
 then
@@ -12,7 +12,7 @@ then
 fi
 
 runtabbed() {
-	tabbed -dn tabbed-surf -r 2 surf -e '' "$uri" >"$xidfile" \
+	tabbed -cdn tabbed-surf -r 2 surf -e '' "$uri" >"$xidfile" \
 		2>/dev/null &
 }
 
